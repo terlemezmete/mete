@@ -1,0 +1,82 @@
+---
+title: "Kadın Cinayetleri"
+author: 
+  - Muhammed Mete TERLEMEZ[^1]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa-tr.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{turkish}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+<!-- ============================== NOTLAR ================================= -->
+<!-- ======================================================================= -->
+[^1]: 20080300
+
+# Giriş
+
+Dünyada ve ülkemizde birçok kadın cinayete kurban gitmektedir. Bu cinayetlerin bazıları medyada karşımıza çıkarken bazıları kayıt dışı kalmaktadır. Gerçekleşen kadın cinayetlerinin medyada duyulmaya başlaması ve bu davalara ilişkin yeni yasal düzenlemeler getirilmesi bakımından Türkiye için dönüm noktası 2010 yılında boşandığı kocası tarafından öldürülen Ayşe Paşalı'nın cinayeti olmuştur. Bu cinayetten sonra toplum artık medyada daha çok kadına yönelik şiddet ve cinayet haberleri görmeye, duymaya başlamıştır.
+  
+  Bu haberler Türkiye ile sınırlı kalmamakta ve dünya çapında bir sorun haline gelmektedir. Kıtalar, görüşler, dinler değişse dahi toplumda kadına yönelik ötekileştirme şekil değiştirerek devam etmekte ve çoğunlukla bu toplumsal cinsiyet eşitsizliği kadın cinayetleri ile sonuçlanmaktadır. Kadın cinayetlerini namus, din, kadının iş hayatına katılması ve modernleşme ile bağdaştırsak bile bu kavramlar her toplumda farklı kalıplarla karşımıza çıkmaktadır. Kadın cinayetlerinin neden işlendiği, cinayetin kim ya da kimler tarafından gerçekleştirildiği gibi detaylar ülkelerin ve yılların kendi içinde de değişiklik göstermektedir.
+  
+  İçinde yaşadığımız coğrafya ataerkil bir geleneğe sahip olarak bilinir ve bu konuda yalnız değildir. Ülkemize zaman zaman başka Asya, Afrika hatta Avrupa ülkeleri bu gelenekte benzerlik göstermektedir. Ataerkil bir geleneğe, törelere, erkeği kadından üstün gösteren inançlara sahip olmak zaman zaman kadın cinayetlerinde karşımıza çıkan sebepleri göstermektedir.
+  
+  Afrika, Amerika, Asya, Avrupa ve Okyanusya kıtaları dünyanın kadın cinayetleri istatistiklerini sunmak için bize genel bir çerçeve vermektedir.^[https://www.unodc.org/] Bu kıtalar genel anlamda farklı coğrafyalara,  inançlara,gelişmişlik seviyelerine, gelenek ve kültürlere sahiptirler. Ancak hepsinde farklı sebeplerle öldürülen kadınlar vardır. Kadın cinayetlerinin namus, din, gelenekler ile ilişkisini incelemek için farklı bölgeler ele almak gerekir. Ayrıca cinayetlerin geçmişten günümüze yıllar içinde gösterdiği artış veya azalışın da sebepleri olmalıdır. Modernleştiği ileri sürülen dünyamızda yaşanan kadın cinayetleri, asla haklı olmayan ve olamayacak bahanelere dayandırılarak işlenmeye devam etmektedir.
+
+
+|| Global| Afrika| Amerika| Asya| Avrupa| Okyanusya|
+|---|---|---|---|---|---|---|
+|Kurban Sayısı|	50000| 19000| 8000| 19000| 3000| 300|
+|Populasyona Oranı(100.000)|	%1.3| %3.1| %1.6| %0.9| %0.7| %0.13|
+
+
+## Çalışmanın Amacı
+Yalnızca haberlerde izleyerek, sosyal medyada farkındalık yaratmaya çalışarak geçtiğimiz bir konu olan kadın cinayetleri aslında geliştiğini varsaydığımız dünyanın asla gelişmeyen bağnaz ve gerici düşünce kalıplarının acı bir tablosudur. Hala namusu yalnızca kadına atfeden, kadını erkekten aşağıda güçsüz bir varlık olarak gören, toplumsal cinsiyeti gelecek kuşakların da zihnine yerleştirerek yetiştiren insanlarla birlikte yaşamaktayız. Günde ortalama 137 kadın öldürülmekte ancak parça parça izlediğimiz haberlerle bu sorunun ulaştığı rakamların ve durumun ciddiyetinin farkında değiliz.^[https://www.bbc.com/turkce/haberler-dunya-46369245]
+
+## Literatür 
+Birçok nedene dayandırılan kadın cinayetlerine dair 2000-2010 yılları arasında 267 ülkeden elde edilen veriler şu şekildedir:^[https://dataunodc.un.org/]
+
+
+
+
+Tüm dünya ve yıllar üzerinde bir araştırma yapmak için bakmamız gereken belli başlı sebepler ise namus, din ve modernite olarak sıralanabilir.
+
+|Yıllar| Namus|	Din|	Modernite|
+|---|---|---|---|
+|2010|	10|	29|	96|
+|2011|	22|	19|	82|
+|2012|	4|	16|	67|
+|2013|	17|	12|	68|
+|2014|	14|	12|	116|
+|2015|	9|	12|	113|
+|2016|	9|	12|	90|
+|2017|	11|	12|	67|
+
+2010-2017 yılları arası Türkiye'de belirtilen bahanelere sığınarak öldürülen kadın sayısı istatistikleri^[http://kadincinayetleri.org/]
+
+
+\newpage
+# Kaynakça {#references}
+<div id="refs"></div>
+
